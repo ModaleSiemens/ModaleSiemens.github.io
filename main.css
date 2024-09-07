@@ -13,11 +13,11 @@ header {
     justify-content: center;
     align-items: center;
 
-    color: rgb(0, 255, 153);
+    color: rgba(165, 0, 127, 0.388);
 }
 
 nav { 
-    color: white;
+    color: magenta;
 
     display: flex;
     justify-content: space-between;
@@ -31,4 +31,20 @@ nav * {
 
 nav .right {
     justify-content: space-between;
+}
+
+section.about h1 {
+    color: pink;
+}
+
+section.about h2 {
+    color: cyan;
+}
+
+section.about h3 {
+    color: cyan
+}
+
+section.about {
+    color: white;
 }
