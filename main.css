@@ -8,6 +8,14 @@ body {
     );
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(0, 255, 153);
+}
+
 nav { 
     color: white;
 
