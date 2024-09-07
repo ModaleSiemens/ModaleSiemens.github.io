@@ -1,0 +1,26 @@
+body {
+    background: rgb(105,94,164);
+    background: linear-gradient(
+        90deg,
+        rgba(105,94,164,1) 0%,
+        rgba(122,122,218,1) 22%,
+        rgba(154,242,224,1) 100%
+    );
+}
+
+nav { 
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav * {
+    display: flex;
+    margin: 16px;
+}
+
+nav .right {
+    justify-content: space-between;
+}
