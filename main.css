@@ -1,11 +1,17 @@
 body {
     background: rgb(105,94,164);
-    background: linear-gradient(
-        90deg,
+    background: repeating-linear-gradient(
+        45deg,
         rgba(105,94,164,1) 0%,
-        rgba(122,122,218,1) 22%,
-        rgba(154,242,224,1) 100%
+        rgba(122,122,218,1) 32%,
+        rgb(46, 73, 87) 100%
     );
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color:unset;
 }
 
 header {
@@ -13,10 +19,10 @@ header {
     justify-content: center;
     align-items: center;
 
-    color: rgba(165, 0, 127, 0.388);
+    color: rgb(240, 240, 240);
 }
 
-nav { 
+nav {
     color: magenta;
 
     display: flex;
@@ -33,18 +39,32 @@ nav .right {
     justify-content: space-between;
 }
 
-section.about h1 {
-    color: pink;
+section h1 {
+    color: rgb(239, 187, 195);
 }
 
-section.about h2 {
+section h2 {
     color: cyan;
 }
 
-section.about h3 {
+section h3 {
     color: cyan
 }
 
-section.about {
-    color: white;
+section {
+    color: rgb(254, 255, 234);
+}
+
+ul {
+    list-style-type: circle;
+    color: rgb(231, 231, 202);
+}
+
+li::marker {
+    color: rgb(255, 188, 62)
+}
+
+.repo-name {
+    color: blue;
+    font-weight: bold;
 }
